@@ -11,7 +11,26 @@
 <body>
 
     <div class="container-fluid border-bottom">
-        <p>test</p>
+        <div class="header container d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
+
+            <div class="header__left d-flex flex-row">
+                <a href="#" class="language__active">FR</a>-<a href="#">NL</a>-<a href="#">EN</a>
+
+                <div class="searchbox input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                      <span class="button input-group-text" id="basic-text1"><i class="fa fa-search text-grey"aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="header__right">
+                <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Se connecter</a>
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Panier</a>
+            </div> 
+
+        </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
