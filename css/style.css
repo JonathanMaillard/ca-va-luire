@@ -29,8 +29,24 @@ body{
 a, a:visited{
     text-decoration: none;
     color:inherit;
+    transition: 0.1s ease-in-out;
 }
 a:hover, a.active{
     text-decoration: none;
     color: #D85D07;
+}
+
+.intro .img{
+    width: 100%;
+    max-width: 500px;
+}
+
+.intro a{
+    padding: 6px 10px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.intro a:hover{
+    background-color: #D85D07;
 }
