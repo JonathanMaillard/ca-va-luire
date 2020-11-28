@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <div class="container-fluid border-bottom">
+    <div class="container-fluid  border-orange">
         <div class="header container d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center">
 
             <div class="header__left d-flex flex-row">
@@ -33,18 +33,44 @@
         </div>
     </div>
 
-    <div class="intro container d-flex flex-column align-items-center">
+    <section class="intro container d-flex flex-column align-items-center flex-wrap">
         <figure>
-            <img src="" alt="ça va luire">
+            <img src="./images/logo.gif" alt="ça va luire">
         </figure>
 
-        <div d-flex flex-row>
-            <a href="./pages/products.html">Produits</a>
-            <a href="./pages/advice.html">Conseils</a>
-            <a href="./pages/about.html">À propos</a>
-            <a href="./pages/contact.html">Contact</a>
+        <div class="intro__nav d-flex justify-content-between">
+            <div><a href="./pages/products.html">Produits</a></div>
+            <div><a href="./pages/advice.html">Conseils</a></div>
+            <div><a href="./pages/about.html">À propos</a></div>
+            <div><a href="./pages/contact.html">Contact</a></div>
         </div>
-    </div>
+    </section>
+
+    <section class="protection container">
+        <h2>Protection</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel sapien nec est rhoncus auctor ac ultrices lacus. Donec et orci dictum, cursus erat sit amet, condimentum magna. Proin dolor neque, tempor id suscipit hendrerit, bibendum tempus est. Sed sem dolor, varius molestie bibendum nec, vehicula a lectus. Morbi eu porttitor ante, vel tempus sapien.</p>
+        <p>Nulla euismod congue nulla. Mauris eleifend enim pretium odio dapibus varius. Quisque hendrerit nec lectus vel mollis. Ut quis lobortis nibh. Vestibulum sed ex arcu. Praesent eleifend odio et nibh finibus vestibulum nec vitae lorem. Vestibulum ac libero aliquam, sodales turpis at, fermentum nibh. Integer finibus turpis eget lacinia pellentesque. In hac habitasse platea dictumst.</p>
+    </section>
+
+    <section class="products container">
+        <h2 class="text-right">Les Produits</h2>
+        <div class="products__link"><a href="./pages/products.html">Tous les produits</a></div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="container d-flex flex-column flex-row-md justify-content-between">
+            <div class="d-flex flex-column align-items-center">
+                <figure><img src="" alt="ça va luire"></figure>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>

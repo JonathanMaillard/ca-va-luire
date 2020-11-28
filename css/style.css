@@ -2,10 +2,18 @@ body{
 
 }
 
+h1, h2, h3, h4, h5{
+    color: #D85D07;
+}
+
 /*-------- HEADER ----------*/
 
 .header{
     padding: 10px 0;
+}
+
+.border-orange{
+    border-bottom: 1px solid #D85D07;
 }
 
 .searchbox{
@@ -36,17 +44,36 @@ a:hover, a.active{
     color: #D85D07;
 }
 
-.intro .img{
+section{
+    padding: 60px 0 60px 0;
+}
+
+.intro figure{
+    margin-bottom: 50px;;
+}
+
+.intro img{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .intro a{
     padding: 6px 10px;
     background-color: #000000;
     color: #ffffff;
+    /*margin: 0 20px 0 20px;*/
 }
 
 .intro a:hover{
     background-color: #D85D07;
+}
+
+.intro__nav{
+    width:100%;
+    max-width: 600px;
+}
+
+footer{
+    background-color: #222222;
+    color: #ffffff;
 }
