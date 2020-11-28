@@ -124,3 +124,35 @@ footer img{
 footer .fa-envelope{
     font-size: 10px;
 }
+
+main{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 70vh;
+
+    position: relative;
+}
+
+.returnHome{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+
+    font-size: 26px;
+
+}
+
+.returnHome a{
+    background-color: #000000;
+    color: #ffffff;
+
+    padding: 5px 14px;
+}
+
+.returnHome a:hover{
+    background-color: #D85D07;
+}
+
+.returnHome .fa-chevron-left{
+    font-size: 14px;
+}
