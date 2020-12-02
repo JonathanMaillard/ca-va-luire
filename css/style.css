@@ -79,6 +79,13 @@ section{
     max-width: 600px;
 }
 
+.protection{
+    background-image: url(../images/protection.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .protection__text{
     max-width: 400px;
 }
