@@ -104,7 +104,9 @@ section{
     max-width: 250px;
 }
 
-
+.product__item{
+ margin-bottom: 30px;
+}
 
 .product__add a{
     color: #ffffff;
