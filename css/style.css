@@ -82,7 +82,9 @@ section{
 .protection__text{
     max-width: 400px;
 }
-
+.products__link{
+    margin-bottom: 30px;
+}
 .products__link a{
     background-color: #D85D07;
     color: #ffffff;
@@ -96,6 +98,22 @@ section{
     text-rendering: auto;
     content: "\00a0\00a0\f054";
     text-decoration: none;
+}
+.product__image{
+    width: 100%;
+    max-width: 250px;
+}
+
+.product__add{
+    background-color: #000000;
+    width: 100%;
+    max-width: 250px;
+
+    display: inline-block;
+}
+
+.prix{
+    font-size: 1.4rem;
 }
 
 footer{
