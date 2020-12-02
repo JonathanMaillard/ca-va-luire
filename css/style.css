@@ -81,6 +81,9 @@ section{
 .protection__image{
     width: 100%;
 }
+.about__image{
+    width: 100%;
+}
 
 .products__link{
     margin-bottom: 30px;
@@ -220,6 +223,11 @@ iframe{
         width: auto;
         height: 100%;
         max-height: 400px;
+    }
+    .about__image{
+        width: auto;
+        height: 100%;
+        max-height: 600px;
     }
     
   }
