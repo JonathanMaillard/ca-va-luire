@@ -1,5 +1,5 @@
 body{
-
+    
 }
 
 h1, h2, h3, h4, h5{
@@ -78,16 +78,13 @@ section{
     width:100%;
     max-width: 600px;
 }
-
-.protection{
-    background-image: url(../images/protection.jpg);
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
+.protection__image{
+    height: 100%;
+    max-height: 250px;
 }
 
 .protection__text{
-    max-width: 400px;
+    /*max-width: 400px;*/
 }
 .products__link{
     margin-bottom: 30px;
@@ -111,12 +108,19 @@ section{
     max-width: 250px;
 }
 
-.product__add{
+
+
+.product__add a{
+    color: #ffffff;
     background-color: #000000;
     width: 100%;
     max-width: 250px;
+    padding: 10px 0;;
 
     display: inline-block;
+}
+.product__add a:hover{
+    background-color: #D85D07;
 }
 
 .prix{
